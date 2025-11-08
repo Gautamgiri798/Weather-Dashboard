@@ -7,30 +7,30 @@ Welcome to your personal, in-depth weather dashboard! This app transforms raw Op
 
 This isn't just another weather app; it's a comprehensive data hub.
 
-  Global City Search: 🌍 Find the weather for any location by name.
+ Global City Search: 🌍 Find the weather for any location by name.
   
-  Live Local Time: ⏰ The dashboard header shows the current date and time for the city you're viewing.
+ Live Local Time: ⏰ The dashboard header shows the current date and time for the city you're viewing.
   
-  Current Weather at-a-Glance: 🌡️ A modern 2x3 grid showing Temperature, "Feels Like," Humidity, Wind, Gusts, and today's max UV Index.
+ Current Weather at-a-Glance: 🌡️ A modern 2x3 grid showing Temperature, "Feels Like," Humidity, Wind, Gusts, and today's max UV Index.
   
-  Next 8 Hours: 🔜 A horizontal card-view forecast for the next 8 hours, showing temp, wind, and precipitation probability.
+ Next 8 Hours: 🔜 A horizontal card-view forecast for the next 8 hours, showing temp, wind, and precipitation probability.
+ 
+ Interactive Forecasts: 📈 Dynamic charts for hourly and daily trends.
+ 
+ 7-Day Outlook: 🗓️ A beautiful, modern card layout for the week ahead.
+ 
+ In-Depth Soil Data: 🌱 Two dedicated charts showing hourly soil temperature and moisture at various depths.
   
-  Interactive Forecasts: 📈 Dynamic charts for hourly and daily trends.
-  
-  7-Day Outlook: 🗓️ A beautiful, modern card layout for the week ahead.
-  
-  In-Depth Soil Data: 🌱 Two dedicated charts showing hourly soil temperature and moisture at various depths.
-  
-  Raw Data Access: 🤓 Expandable sections to view the raw Pandas DataFrames.
+ Raw Data Access: 🤓 Expandable sections to view the raw Pandas DataFrames.
   
   <details>
-  <summary><strong>See Full List of Data Points</strong></summary>
+ <summary><strong>See Full List of Data Points</strong></summary>
   
-  Current: Temp, Feels Like, Humidity, Wind, Gusts, UV Index, Weather Code
+ Current: Temp, Feels Like, Humidity, Wind, Gusts, UV Index, Weather Code
   
-  Hourly: Temp, Apparent Temp, Precip. Probability, Wind Speed, Soil Temp (4 depths), Soil Moisture (5 depths)
+ Hourly: Temp, Apparent Temp, Precip. Probability, Wind Speed, Soil Temp (4 depths), Soil Moisture (5 depths)
   
-  Daily: Max/Min Temp, Weather Code, Precip. Probability, Max Wind Speed
+ Daily: Max/Min Temp, Weather Code, Precip. Probability, Max Wind Speed
   
   </details>
 
@@ -52,30 +52,29 @@ requirements.txt
 It's highly recommended to use a virtual environment to keep your project dependencies clean.
 
 # Create a new folder for your project
-  mkdir weather-dashboard
-  cd weather-dashboard
+mkdir weather-dashboard
+cd weather-dashboard
   
-  # Create a virtual environment (e.g., 'venv')
-  python -m venv venv
+# Create a virtual environment (e.g., 'venv')
+python -m venv venv
   
-  # Activate the environment
-  # On Windows:
-  .\venv\Scripts\Activate
-  # On macOS/Linux:
-  source venv/bin/activate
+# Activate the environment
+# On Windows:
+.\venv\Scripts\Activate
+# On macOS/Linux:
+source venv/bin/activate
 
 3. Install Dependencies
 
 Install all the required Python libraries from the requirements.txt file.
 
-  pip install -r requirements.txt
-
+pip install -r requirements.txt
 
 4. Run the App!
 
 Launch the Streamlit app. Streamlit will automatically open it in your default web browser.
 
-  streamlit run app.py
+streamlit run app.py
 
 
 🛠️ Tech Stack
